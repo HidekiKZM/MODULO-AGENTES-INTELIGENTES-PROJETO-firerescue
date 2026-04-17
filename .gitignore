@@ -1,0 +1,12 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Configurações e Chaves (CRÍTICO)
+.env
+
+# Docker e Sistema
+.DS_Store
+__pycache__/
+*.pyc

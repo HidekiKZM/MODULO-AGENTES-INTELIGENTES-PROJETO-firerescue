@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  firerescue-sim:
+    build: .
+    container_name: firerescue_agent_sim
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+    command: python src/main.py
